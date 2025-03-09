@@ -25,19 +25,20 @@ class Map{
 
 
     mostrarPuntInicial(){
-    
+        this.mostrarPunt(this.#currentLat, this.#currentLong, "Ubicació actual");
     }
 
     actualitzarPosInitMapa(lat,lon){
-
+        this.#map.setView([lat, lon], 12);
     }
 
 
     mostrarPunt(lat,long,desc=""){
-
+        const marker = L.marker([lat, long]).addTo(this.#map);
+        marker.bindPopup(desc).openPopup(); 
     }
 
-    borrarPuunt(){
+    borrarPunt(){
 
     }
 

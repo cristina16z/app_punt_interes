@@ -1,6 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 main{
     display: flex;
     justify-content: space-between;
+    padding: .2%;
 
 }   
 
@@ -17,13 +23,88 @@ main{
 
 .menu{
     width: 30%;
-    padding: 10px;
+    padding: 1%;
+    background-color: rgb(177, 176, 176);
+    border-radius: 5px;
+    margin-right: .2%;
 }
 
+
+.filtro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2%;
+    background-color: rgb(239, 188, 188);
+    border-radius: 5px;
+}
+
+
+/*mida dels inputs*/
+.filtro input{
+    height: 2.5vh;
+}
+
+#ordenacio_alfabetic, #ordenacio_tipus{
+    height: 2.5vh;
+}
+
+
+.seccio_options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px; 
+    flex-wrap: wrap;
+}
+
+/*quedi en columna la part de tipus y ordenacio */
+.tipus, .ordenacio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48%;
+}
+
+/*txt tipus y ordenacio centrats*/
+.ordenacio div, .tipus div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+
+.resultats{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    border: 1px solid black;
+    background-color: rgb(240, 208, 214);
+    border-radius: 8px;
+    height: 60vh;
+}
+
+.resultats, .nTotal, .dropZone{
+    margin-top: 2%;
+}
+
+.nTotal{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.clean{
+    padding: 1%;
+    background-color: rgb(240, 116, 116);
+    color: white;
+}
 
 .dropZone{
     display: flex;
     justify-content: center;
     border:1px dashed black;
-    border-radius: 5px;
+    border-radius: 12px;
+    padding: 1%;
 }

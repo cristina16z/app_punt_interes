@@ -13,16 +13,50 @@
 <body>
 
     <main>
+
         <div class="menu">
-            <div>hello world
-                <div class="dropZone">Arrastra aquí el teu csv</div>
+            <div>
+
+                <div class="filtro">
+                    <div class="seccio_options">
+
+                        <div class="tipus">
+                            <div>Tipus:</div>
+                            <select id="ordenacio_tipus">
+                                <option></option>
+                            </select>
+                        </div>
+
+                        <div class="ordenacio">
+                            <div>Ordenació:</div>
+                            <select id="ordenacio_alfabetic">
+                                <option>Ascendent</option>
+                                <option>Descendent</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <input type="text" placeholder="Filtrar per nom...">
+                </div>
+
+                <div class="resultats">
+                    <div>No hi ha informació per mostrar</div>
+                </div>
+
+                <div class="nTotal">Número total: <button class="clean">Netejar tot</button></div>
+
+                <div class="dropZone">Arrossegar un fitxer CSV aquí per carregar la informació</div>
+
             </div>
         </div>
+
+
         <div id="map"></div>
     
     </main>
 
-    
+
     <script src="scripts/const.js"></script>
     <script src="scripts/PuntInteres.js"></script>
     <script src="scripts/mapa.js"></script>

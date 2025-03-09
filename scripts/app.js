@@ -18,7 +18,7 @@ dropZoneObj.addEventListener("drop", function(event){
 
 
 const loadFile = function(files){
-   
+
 
     if(files && files.length > 0){
         const file = files[0];
