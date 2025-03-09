@@ -1,0 +1,29 @@
+main{
+    display: flex;
+    justify-content: space-between;
+
+}   
+
+
+#map{
+    height: 98vh;
+    width:70%;
+    border-radius: 10px;
+    
+}
+
+
+/******************************************************************* MENÚ *******************************/
+
+.menu{
+    width: 30%;
+    padding: 10px;
+}
+
+
+.dropZone{
+    display: flex;
+    justify-content: center;
+    border:1px dashed black;
+    border-radius: 5px;
+}
