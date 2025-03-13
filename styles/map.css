@@ -109,3 +109,19 @@ main{
     border-radius: 12px;
     padding: 1%;
 }
+
+
+
+/*********** Bandera *************/
+
+.bandera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+
+.bandera_img{
+  width: 5%;
+  height: auto;
+}
