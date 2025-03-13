@@ -17,9 +17,8 @@ const LON = 7;
 const HORARIS = 8;
 const PREU =9;
 const DESCRIPCIO = 10;
-const PUNT = 11;
+const PUNTUACIO = 11;
 const MONEDA = 12;
-
 
 
 
